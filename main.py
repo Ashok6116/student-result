@@ -1,6 +1,11 @@
-def main():
-    print("Hello from student-result!")
+def calculate_result(marks):
+
+    if marks >= 40:
+        return "Pass"
+    else:
+        return "Fail"
 
 
-if __name__ == "__main__":
-    main()
+result = calculate_result(75)
+
+print(result)
